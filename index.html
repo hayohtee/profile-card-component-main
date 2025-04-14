@@ -3,10 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- displays site properly based on user's device -->
-
         <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-
         <title>Frontend Mentor | Profile card component</title>
         <link rel="stylesheet" href="style.css" />
     </head>
@@ -14,34 +11,36 @@
         <main class="card-container">
             <div class="card-header">
                 <img src="images/bg-pattern-card.svg" alt="" />
+                <div class="avatar">
+                    <img src="images/image-victor.jpg" alt="A portrait of a user" />
+                </div>
             </div>
-            <div class="avatar">
-                <img src="images/image-victor.jpg" alt="A portrait of a user" />
-            </div>
-            <div class="bio">
-                <h1 class="name">Victor Crest</h1>
-                <p class="age">26</p>
+            <div class="info">
+                <div class="bio">
+                    <p class="name">Victor Crest</p>
+                    <p class="age">26</p>
+                </div>
                 <p class="city">London</p>
             </div>
-            <div class="stats-container">
+            <div class="stat-container">
                 <div class="stat">
-                    <h2>80K</h2>
-                    <p>Followers</p>
+                    <p class="stat-header">80K</p>
+                    <p class="stat-body">Followers</p>
                 </div>
                 <div class="stat">
-                    <h2>803K</h2>
-                    <p>Likes</p>
+                    <p class="stat-header">803K</p>
+                    <p class="stat-body">Likes</p>
                 </div>
                 <div class="stat">
-                    <h2>1.4K</h2>
-                    <p>Photos</p>
+                    <p class="stat-header">1.4K</p>
+                    <p class="stat-body">Photos</p>
                 </div>
             </div>
         </main>
         <footer class="attribution">
             Challenge by
             <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
-            >. Coded by <a href="#">Your Name Here</a>.
+            >. Coded by <a href="https://github.com/hayohtee">Olamilekan Akintilebo</a>.
         </footer>
     </body>
 </html>
